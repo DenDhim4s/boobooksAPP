@@ -23,4 +23,7 @@
         android:layout_marginLeft="40dp" />
 
 
+    <TextView
+        android:layout_width=""
+        android:layout_height=""></TextView>
 </FrameLayout>
