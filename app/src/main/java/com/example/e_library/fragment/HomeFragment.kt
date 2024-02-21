@@ -7,11 +7,7 @@ import android.widget.Button
 import com.example.e_library.R
 import com.example.e_library.fragment.PopUpBookFragment
 
-
 class HomeFragment : Fragment() {
-
-    lateinit var btnBottomSheet: Button
-    lateinit var PopUpBookFragment: PopUpBookFragment
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -24,9 +20,10 @@ class HomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        btnBottomSheet = view.findViewById(R.id.btnBottomSheet)
-        btnBottomSheet.setOnClickListener {
-            PopUpBookFragment = PopUpBookFragment()
+        val popUpBookFragment = view.findViewById<View>(R.layout.fragment_pop_up_book)
+        val btnBottomSheet = view.findViewById<Button>(R.id.btn_bookSheet)
+        btnBottomSheet.setOnClickListener(){
+            PopUpBookFragment = popUpBookFragment
             PopUpBookFragment.show(requireActivity().supportFragmentManager, "BSDialogFragment")
         }
     }

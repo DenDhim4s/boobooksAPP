@@ -30,7 +30,6 @@ class Main2Activity : AppCompatActivity() {
     private lateinit var bottomNavigationView: BottomNavigationView
     private lateinit var menu: Menu
     private lateinit var menuItem: MenuItem
-
     private lateinit var sPH: SharedPreference
     lateinit var binding: ActivityMain2Binding
 
