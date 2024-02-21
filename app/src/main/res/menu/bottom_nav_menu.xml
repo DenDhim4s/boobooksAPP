@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/icon_home"
+
+        />
+
+    <item
+        android:id="@+id/koleksi"
+        android:title="Koleksi"
+        android:icon="@drawable/icon_koleksi"
+
+        />
+
+    <item
+        android:id="@+id/leaderboard"
+        android:title="Leaderboard"
+        android:icon="@drawable/icon_leaderboard"
+
+        />
+
+    <item
+        android:id="@+id/report"
+        android:title="Report"
+        android:icon="@drawable/icon_home"
+
+        />
+</menu>
