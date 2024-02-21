@@ -13,7 +13,14 @@
         android:layout_height="match_parent"
         android:text="@string/hello_blank_fragment" />
 
-
+    <Button
+        android:id="@+id/btnBottomSheet"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:text="Open Bottom Sheet"
+        android:textAllCaps="false"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="40dp" />
 
 
 </FrameLayout>
